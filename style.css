@@ -1,0 +1,122 @@
+body,
+footer {
+    background-color: rgb(0, 1, 53);
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    border-bottom: 1px solid white;
+}
+
+footer {
+    border-top: 2px solid white;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+    font-family: 'Bahnschrift', sans-serif !important;
+}
+
+h1,
+h2 {
+    color: rgb(106, 170, 158);
+}
+
+h1 {
+    font-size: 4em;
+    line-height: 90%;
+}
+
+h2 {
+    font-size: 3em;
+    line-height: 95%;
+}
+
+p {
+    font-size: larger;
+}
+
+.first-parallax {
+    height: 40vh;
+    width: 100%;
+    background-image: url("./images/fundo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-marine-green {
+    background-color: rgb(106, 170, 158);
+}
+
+.bg-marine-green img {
+    width: 200px;
+    height: auto;
+}
+
+.text-marine-green {
+    color: rgb(106, 170, 158) !important;
+}
+
+.text-blue {
+    color: rgb(0, 1, 53) !important;
+}
+
+footer img {
+    width: 150px;
+    height: auto;
+}
+
+.bg-white {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    /* Adicionado */
+}
+
+.bg-white img {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    z-index: -1;
+}
+
+.bg-white h1 {
+    position: relative;
+    z-index: 2;
+}
+
+.apertado {
+    word-spacing: -3px;
+}
+
+.custom-btn {
+    background-color: rgb(106, 170, 158);
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 40%;
+    height: 55px;
+}
+
+.programa img {
+    width: 40px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0 !important;
+}
+
+ul img {
+    margin-right: 1em !important;
+}
